@@ -7,7 +7,7 @@ about:
   head: 9a44521
   archived: false
   latestVersion: v1.9.0
-  collectedAt: 2026-09-04T20:02:21Z
+  collectedAt: 2026-09-04T20:40:07Z
 timeline:
   created: 2015-12-29
   lastCommit: 2026-08-24
@@ -81,6 +81,44 @@ total:
   openIssue: 14
   commit: 600
 ---
+path: /home/runner/.x-repo/github.com/dbrgn/tealdeer
+collectedAt: 2026-09-04T20:40:08Z
+loc:
+  Rust:
+    code: 3940
+    comments: 158
+    blanks: 611
+    files: 11
+  Svg:
+    code: 104
+    comments: 0
+    blanks: 0
+    files: 2
+  Toml:
+    code: 69
+    comments: 3
+    blanks: 11
+    files: 4
+  Sh:
+    code: 67
+    comments: 23
+    blanks: 6
+    files: 2
+  Markdown:
+    code: 0
+    comments: 1202
+    blanks: 468
+    files: 24
+  Text:
+    code: 0
+    comments: 33
+    blanks: 5
+    files: 1
+total:
+  code: 4263
+  comments: 1578
+  blanks: 1119
+  files: 44
 ---
 date: "2026-08-24"
 repo:
