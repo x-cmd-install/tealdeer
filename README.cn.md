@@ -14,15 +14,15 @@ x install tealdeer
 
 ## 代码洞察
 
-合计: **4,180** 行代码（覆盖前 5 种语言、共 **43** 个文件）。
+合计: **4,244** 行代码（覆盖前 5 种语言、共 **43** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 3,940 | 158 | 611 | 11 |
+| Rust | 4,004 | 165 | 624 | 11 |
 | Svg | 104 | 0 | 0 | 2 |
 | Toml | 69 | 3 | 11 | 4 |
 | Sh | 67 | 23 | 6 | 2 |
-| Markdown | 0 | 1,202 | 468 | 24 |
+| Markdown | 0 | 1,225 | 477 | 24 |
 
 ## OpenSSF Scorecard 评分
 
@@ -42,75 +42,75 @@ x install tealdeer
 
 ## 发布
 
-- **最新版本**: `v1.9.0` (2026-08-24)
-- **最近提交**: 2026-08-24
+- **最新版本**: `v1.9.1` (2026-10-24)
+- **最近提交**: 2026-10-24
 - **Release 含资产**: 25 个
 
 ## 流行度
 
-- **Star**: 6,617 · **Fork**: 166 · **开放 issue**: 205 · **贡献者**: 80
+- **Star**: 6,623 · **Fork**: 166 · **开放 issue**: 205 · **贡献者**: 81
 
 ## 累计统计
 
-- **发布数**: 18 · **已合并 PR**: 255 · **开放 PR**: 1 · **已关闭 issue**: 187 · **开放 issue**: 18 · **提交数**: 600
+- **发布数**: 19 · **已合并 PR**: 257 · **开放 PR**: 0 · **已关闭 issue**: 189 · **开放 issue**: 16 · **提交数**: 603
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-27 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-29 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-03 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-27 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-28 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-30 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-04 | 9 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [completions_bash](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/completions_bash) | 800 B | `other` |
-| [completions_fish](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/completions_fish) | 2.2 KiB | `other` |
-| [completions_zsh](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/completions_zsh) | 2.0 KiB | `other` |
-| [LICENSE-APACHE.txt](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/LICENSE-APACHE.txt) | 9.5 KiB | `other` |
-| [LICENSE-MIT.txt](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/LICENSE-MIT.txt) | 1.1 KiB | `other` |
-| [tealdeer-linux-aarch64-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-aarch64-musl) | 2.8 MiB | `native/linux/arm64/musl` |
-| [tealdeer-linux-aarch64-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-aarch64-musl.sha256) | 94 B | `native/linux/arm64/musl` |
-| [tealdeer-linux-arm-musleabi](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-arm-musleabi) | 2.7 MiB | `native/linux/arm/musl` |
-| [tealdeer-linux-arm-musleabi.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-arm-musleabi.sha256) | 94 B | `native/linux/arm/musl` |
-| [tealdeer-linux-arm-musleabihf](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-arm-musleabihf) | 2.7 MiB | `native/linux/arm/musl` |
-| [tealdeer-linux-arm-musleabihf.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-arm-musleabihf.sha256) | 96 B | `native/linux/arm/musl` |
-| [tealdeer-linux-armv7-musleabihf](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-armv7-musleabihf) | 2.6 MiB | `native/linux/arm/musl` |
-| [tealdeer-linux-armv7-musleabihf.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-armv7-musleabihf.sha256) | 98 B | `native/linux/arm/musl` |
-| [tealdeer-linux-i686-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-i686-musl) | 3.0 MiB | `native/linux/x86/musl` |
-| [tealdeer-linux-i686-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-i686-musl.sha256) | 91 B | `native/linux/x86/musl` |
-| [tealdeer-linux-x86_64-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl) | 3.4 MiB | `native/linux/x64/musl` |
-| [tealdeer-linux-x86_64-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl.sha256) | 93 B | `native/linux/x64/musl` |
-| [tealdeer-macos-aarch64](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-macos-aarch64) | 2.6 MiB | `native/darwin/arm64` |
-| [tealdeer-macos-aarch64.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-macos-aarch64.sha256) | 89 B | `native/darwin/arm64` |
-| [tealdeer-macos-x86_64](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-macos-x86_64) | 3.0 MiB | `native/darwin/x64` |
-| [tealdeer-macos-x86_64.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-macos-x86_64.sha256) | 88 B | `native/darwin/x64` |
-| [tealdeer-windows-aarch64-msvc.exe](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-windows-aarch64-msvc.exe) | 2.9 MiB | `native/win/arm64` |
-| [tealdeer-windows-aarch64-msvc.exe.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-windows-aarch64-msvc.exe.sha256) | 100 B | `native/win/arm64` |
-| [tealdeer-windows-x86_64-msvc.exe](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-windows-x86_64-msvc.exe) | 3.4 MiB | `native/win/x64` |
-| [tealdeer-windows-x86_64-msvc.exe.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-windows-x86_64-msvc.exe.sha256) | 99 B | `native/win/x64` |
+| [completions_bash](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/completions_bash) | 800 B | `other` |
+| [completions_fish](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/completions_fish) | 2.2 KiB | `other` |
+| [completions_zsh](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/completions_zsh) | 2.0 KiB | `other` |
+| [LICENSE-APACHE.txt](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/LICENSE-APACHE.txt) | 9.5 KiB | `other` |
+| [LICENSE-MIT.txt](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/LICENSE-MIT.txt) | 1.1 KiB | `other` |
+| [tealdeer-linux-aarch64-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-aarch64-musl) | 2.9 MiB | `native/linux/arm64/musl` |
+| [tealdeer-linux-aarch64-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-aarch64-musl.sha256) | 94 B | `native/linux/arm64/musl` |
+| [tealdeer-linux-arm-musleabi](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabi) | 2.8 MiB | `native/linux/arm/musl` |
+| [tealdeer-linux-arm-musleabi.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabi.sha256) | 94 B | `native/linux/arm/musl` |
+| [tealdeer-linux-arm-musleabihf](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabihf) | 2.8 MiB | `native/linux/arm/musl` |
+| [tealdeer-linux-arm-musleabihf.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabihf.sha256) | 96 B | `native/linux/arm/musl` |
+| [tealdeer-linux-armv7-musleabihf](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-armv7-musleabihf) | 2.7 MiB | `native/linux/arm/musl` |
+| [tealdeer-linux-armv7-musleabihf.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-armv7-musleabihf.sha256) | 98 B | `native/linux/arm/musl` |
+| [tealdeer-linux-i686-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-i686-musl) | 3.1 MiB | `native/linux/x86/musl` |
+| [tealdeer-linux-i686-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-i686-musl.sha256) | 91 B | `native/linux/x86/musl` |
+| [tealdeer-linux-x86_64-musl](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-x86_64-musl) | 3.5 MiB | `native/linux/x64/musl` |
+| [tealdeer-linux-x86_64-musl.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-linux-x86_64-musl.sha256) | 93 B | `native/linux/x64/musl` |
+| [tealdeer-macos-aarch64](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-macos-aarch64) | 2.7 MiB | `native/darwin/arm64` |
+| [tealdeer-macos-aarch64.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-macos-aarch64.sha256) | 89 B | `native/darwin/arm64` |
+| [tealdeer-macos-x86_64](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-macos-x86_64) | 3.0 MiB | `native/darwin/x64` |
+| [tealdeer-macos-x86_64.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-macos-x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [tealdeer-windows-aarch64-msvc.exe](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-aarch64-msvc.exe) | 3.0 MiB | `native/win/arm64` |
+| [tealdeer-windows-aarch64-msvc.exe.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-aarch64-msvc.exe.sha256) | 100 B | `native/win/arm64` |
+| [tealdeer-windows-x86_64-msvc.exe](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe) | 3.5 MiB | `native/win/x64` |
+| [tealdeer-windows-x86_64-msvc.exe.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe.sha256) | 99 B | `native/win/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/tealdeer) 上共有 **84** 个发行版报告此项目。**35** 个 ✅ 已是最新上游版本，**39** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/tealdeer) 上共有 **84** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**69** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.9.0` | ✅ latest |
-| Debian 14 | `1.9.0` | ✅ latest |
+| Debian unstable | `1.9.0` | ⚠️ outdated |
+| Debian 14 | `1.9.0` | ⚠️ outdated |
 | Debian 13 | `1.7.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.6.1` | ⚠️ outdated |
-| Arch | `1.9.0` | ✅ latest |
-| Homebrew | `1.9.0` | ✅ latest |
-| Nix unstable | `1.9.0` | ✅ latest |
-| Void | `1.9.0` | ✅ latest |
-| Alpine edge | `1.9.0` | ✅ latest |
+| Arch | `1.9.0` | ⚠️ outdated |
+| Homebrew | `1.9.1` | ✅ latest |
+| Nix unstable | `1.9.0` | ⚠️ outdated |
+| Void | `1.9.0` | ⚠️ outdated |
+| Alpine edge | `1.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.8.0` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -122,4 +122,4 @@ tealdeer 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261024.yml` · 2026-10-24T05:43:05Z._
+_数据快照: `data/card/261025.yml` · 2026-10-25T05:53:24Z._
