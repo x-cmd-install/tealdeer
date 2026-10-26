@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,623 · **Forks**: 166 · **Open issues**: 205 · **Contributors**: 81
+- **Stars**: 6,625 · **Forks**: 166 · **Open issues**: 205 · **Contributors**: 81
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-27 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-28 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-30 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-04 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-28 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-29 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-31 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-05 | 9 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/tealdeer). **5** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/tealdeer). **13** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -106,7 +106,7 @@ Reported by **84** distros on [repology.org](https://repology.org/project/tealde
 | Debian 13 | `1.7.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.6.1` | ⚠️ outdated |
-| Arch | `1.9.0` | ⚠️ outdated |
+| Arch | `1.9.1` | ✅ latest |
 | Homebrew | `1.9.1` | ✅ latest |
 | Nix unstable | `1.9.0` | ⚠️ outdated |
 | Void | `1.9.0` | ⚠️ outdated |
@@ -122,4 +122,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:53:24Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T06:04:15Z._
