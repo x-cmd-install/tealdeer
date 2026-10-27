@@ -30,8 +30,8 @@ Overall score: **4.1 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 9/30 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (3/10) — Found 10/29 approved changesets -- score normalized to 3
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-28 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-29 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-31 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-05 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-28 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-29 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-30 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-01 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-06 | 9 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/tealdeer). **13** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/tealdeer). **14** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T06:04:15Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T06:18:33Z._
