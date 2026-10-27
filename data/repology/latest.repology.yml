@@ -223,6 +223,18 @@
     - n@sail.ng
   categories:
     - misc
+- repo: freebsd
+  srcname: sysutils/tealdeer
+  binname: tealdeer
+  visiblename: sysutils/tealdeer
+  version: 1.9.1
+  origversion: null
+  status: newest
+  summary: Fast tldr client written in Rust
+  maintainers:
+    - tagattie@freebsd.org
+  categories:
+    - sysutils
 - repo: debian_13
   subrepo: trixie/main
   srcname: rust-tealdeer
@@ -497,18 +509,20 @@
     - MIT OR Apache-2.0
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: sysutils/tealdeer
-  binname: tealdeer
-  visiblename: sysutils/tealdeer
-  version: 1.9.1
-  origversion: null
-  status: newest
-  summary: Fast tldr client written in Rust
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.7.2
+  origversion: 1.7.2-1+deb13u1
+  status: outdated
   maintainers:
-    - tagattie@freebsd.org
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
   categories:
-    - sysutils
+    - misc
 - repo: gentoo_ovl_guru
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
@@ -905,20 +919,6 @@
     - ncts@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.7.2
-  origversion: 1.7.2-1+deb13u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: sysutils/tealdeer
   binname: tealdeer
@@ -947,9 +947,9 @@
   srcname: sysutils/tealdeer
   binname: tealdeer
   visiblename: sysutils/tealdeer
-  version: 1.9.0
+  version: 1.9.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Simplified, example based and community-driven man pages
   maintainers:
     - bsiegert@netbsd.org

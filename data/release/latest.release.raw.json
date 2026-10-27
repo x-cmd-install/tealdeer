@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 800,
       "digest": "sha256:3a14c45f758ce95ba088c79cd2c0a5b6890a8255d51af22028d4f3ebe977a656",
-      "download_count": 15,
+      "download_count": 23,
       "created_at": "2026-10-24T21:07:15Z",
       "updated_at": "2026-10-24T21:07:16Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/completions_bash"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2204,
       "digest": "sha256:0a60756306afe412ee5fb604482e9edb14be7d38244ca067715404e2133fdc4c",
-      "download_count": 7,
+      "download_count": 9,
       "created_at": "2026-10-24T21:07:16Z",
       "updated_at": "2026-10-24T21:07:16Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/completions_fish"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2079,
       "digest": "sha256:3ece1ec1b2ac801f38e403c2587c65935131549546ec229292b49de8cd35cb7c",
-      "download_count": 10,
+      "download_count": 22,
       "created_at": "2026-10-24T21:07:15Z",
       "updated_at": "2026-10-24T21:07:15Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/completions_zsh"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 3019104,
       "digest": "sha256:247746dd2d18f0135da79b849bb6b49e45262e2fe4318adfc3082dc6ce3ee968",
-      "download_count": 114,
+      "download_count": 204,
       "created_at": "2026-10-24T21:10:25Z",
       "updated_at": "2026-10-24T21:10:25Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-aarch64-musl"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 94,
       "digest": "sha256:669883556c8a6dcdf21b1dab85a8e81e2f5743a07397b1e5e472f55f85d0b705",
-      "download_count": 11,
+      "download_count": 18,
       "created_at": "2026-10-24T21:10:27Z",
       "updated_at": "2026-10-24T21:10:27Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-aarch64-musl.sha256"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2915184,
       "digest": "sha256:8e7fe3a7f417b1b2b481e153d5082a7c237f38cd09898b94d9b20c1373b532de",
-      "download_count": 4,
+      "download_count": 8,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:26Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabi"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 94,
       "digest": "sha256:1571056b612ee3fa735152e05243654273591d6be552ea889470df11356db573",
-      "download_count": 8,
+      "download_count": 12,
       "created_at": "2026-10-24T21:10:27Z",
       "updated_at": "2026-10-24T21:10:27Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabi.sha256"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2915140,
       "digest": "sha256:89e3c93c448f9abfbcd84afcfdde111130986d6d453f646ee63aed9c43536434",
-      "download_count": 5,
+      "download_count": 7,
       "created_at": "2026-10-24T21:10:24Z",
       "updated_at": "2026-10-24T21:10:24Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabihf"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 96,
       "digest": "sha256:e407b1cffb740085c4a19ee2c548dd584f155043e5dd6094b0064d28055cb733",
-      "download_count": 7,
+      "download_count": 11,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:26Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-arm-musleabihf.sha256"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2825072,
       "digest": "sha256:5d5b86b016d80391e285a17bb69f03f9745920df98b81679cfe189eb3617ccf4",
-      "download_count": 10,
+      "download_count": 15,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:26Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-armv7-musleabihf"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 98,
       "digest": "sha256:63e4d38cf044043075a52141045e3f9445ec4cc4aa2b556e1c78f823c4836d22",
-      "download_count": 7,
+      "download_count": 11,
       "created_at": "2026-10-24T21:10:27Z",
       "updated_at": "2026-10-24T21:10:28Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-armv7-musleabihf.sha256"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 3222196,
       "digest": "sha256:7c9a4e62a02c4799b68accc2e0b6d59b674ad8b91657123df9afafc83e5f47bf",
-      "download_count": 19,
+      "download_count": 37,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:26Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-i686-musl"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 91,
       "digest": "sha256:0116be55e1cc7a2722dbc5ad6386f3058e28583f7c693707922c6cfec22bdc06",
-      "download_count": 7,
+      "download_count": 10,
       "created_at": "2026-10-24T21:10:28Z",
       "updated_at": "2026-10-24T21:10:28Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-i686-musl.sha256"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 3658688,
       "digest": "sha256:5a9c3f0691b9cf375ee5c99de802885f3d50498cf686a539e2ddda028eb6b4f6",
-      "download_count": 283,
+      "download_count": 562,
       "created_at": "2026-10-24T21:10:27Z",
       "updated_at": "2026-10-24T21:10:27Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-x86_64-musl"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 93,
       "digest": "sha256:c50ed0fb674f39ae9418dd225533ddc71cb33624a34a576ca93ce309d46bf231",
-      "download_count": 30,
+      "download_count": 57,
       "created_at": "2026-10-24T21:10:29Z",
       "updated_at": "2026-10-24T21:10:29Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-linux-x86_64-musl.sha256"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 2825568,
       "digest": "sha256:5c0a088880d83faf098e2716abbc373a5607addf76a7e1b7ebbe206bde4ebd35",
-      "download_count": 75,
+      "download_count": 187,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:27Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-macos-aarch64"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 89,
       "digest": "sha256:2319d7f3b0bdf82a7fbc88d00f5f9c7ec34a021cf361019343220421d2b00feb",
-      "download_count": 8,
+      "download_count": 12,
       "created_at": "2026-10-24T21:10:28Z",
       "updated_at": "2026-10-24T21:10:29Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-macos-aarch64.sha256"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 3191568,
       "digest": "sha256:06189e82d407d2f3193b9a22d2b6a289a271677142b993af2cee0c2120e12111",
-      "download_count": 32,
+      "download_count": 63,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:27Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-macos-x86_64"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 88,
       "digest": "sha256:524746edf1d37a643275ad5c037242dad81e9030e68c3961afb831d7f3078241",
-      "download_count": 7,
+      "download_count": 12,
       "created_at": "2026-10-24T21:10:28Z",
       "updated_at": "2026-10-24T21:10:28Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-macos-x86_64.sha256"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 3095552,
       "digest": "sha256:4063474c8bf3d5b2aa97994454cedfce5aaa1a33448f08cc256e6df8700a272a",
-      "download_count": 11,
+      "download_count": 15,
       "created_at": "2026-10-24T21:10:23Z",
       "updated_at": "2026-10-24T21:10:23Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-windows-aarch64-msvc.exe"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 100,
       "digest": "sha256:1aae6523cf31647d206f45381dfe55dd02b3e490b5865731de534c49375d0fc3",
-      "download_count": 15,
+      "download_count": 18,
       "created_at": "2026-10-24T21:10:24Z",
       "updated_at": "2026-10-24T21:10:24Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-windows-aarch64-msvc.exe.sha256"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 3695104,
       "digest": "sha256:f75a3e4b43e7b03d30bac88eccf928af90b8993cd354fe207aec1c643910736f",
-      "download_count": 481,
+      "download_count": 744,
       "created_at": "2026-10-24T21:10:26Z",
       "updated_at": "2026-10-24T21:10:26Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:94ad49e05221432491a7202ce3379bef3319f6c684cb2112370b866840e24283",
-      "download_count": 23,
+      "download_count": 29,
       "created_at": "2026-10-24T21:10:28Z",
       "updated_at": "2026-10-24T21:10:28Z",
       "browser_download_url": "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe.sha256"
@@ -943,13 +943,13 @@
   "discussion_url": "https://github.com/tealdeer-rs/tealdeer/discussions/530",
   "reactions": {
     "url": "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/422982512/reactions",
-    "total_count": 2,
-    "+1": 2,
+    "total_count": 5,
+    "+1": 4,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 0,
+    "heart": 1,
     "rocket": 0,
     "eyes": 0
   }
