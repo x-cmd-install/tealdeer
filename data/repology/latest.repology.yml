@@ -1,3 +1,17 @@
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.7.2
+  origversion: 1.7.2-1+deb13u1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: tealdeer
@@ -37,6 +51,15 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT AND Apache-2.0
+- repo: chromebrew
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.9.0
+  origversion: null
+  status: outdated
+  summary: A very fast implementation of tldr in Rust.
+  licenses:
+    - Apache-2.0, MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: tealdeer
@@ -193,15 +216,6 @@
   origversion: null
   status: outdated
   summary: A very fast implementation of tldr in Rust.
-- repo: chromebrew
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.9.0
-  origversion: null
-  status: outdated
-  summary: A very fast implementation of tldr in Rust.
-  licenses:
-    - Apache-2.0, MIT
 - repo: crates_io
   srcname: tealdeer
   visiblename: tealdeer
@@ -509,20 +523,6 @@
     - tagattie@freebsd.org
   categories:
     - sysutils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.7.2
-  origversion: 1.7.2-1+deb13u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: gentoo_ovl_guru
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
@@ -587,7 +587,7 @@
   srcname: tealdeer
   binname: tealdeer
   visiblename: tealdeer
-  version: 1.8.1
+  version: 1.9.0
   origversion: null
   status: outdated
   summary: Fetch and show tldr help pages for many CLI commands
@@ -619,6 +619,50 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: nix_stable_24_11
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.7.0
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_05
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_11
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.8.1
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: liguros_stable
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
@@ -788,50 +832,6 @@
   licenses:
     - Apache-2.0
     - MIT
-- repo: nix_stable_24_11
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.7.0
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_05
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.7.2
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_11
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.8.1
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
-    - MIT
 - repo: nix_stable_26_05
   srcname: tealdeer
   visiblename: tealdeer
@@ -919,6 +919,20 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.7.2
+  origversion: 1.7.2-1+deb13u1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: pkgsrc_2026_2
   srcname: sysutils/tealdeer
   binname: tealdeer
@@ -981,20 +995,6 @@
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - n@sail.ng
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.7.2
-  origversion: 1.7.2-1+deb13u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
   categories:
     - misc
 - repo: raspbian_testing
