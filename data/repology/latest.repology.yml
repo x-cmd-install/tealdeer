@@ -1,3 +1,47 @@
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.7.2
+  origversion: 1.7.2-1+deb13u1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.5.0
+  origversion: 1.5.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - n@sail.ng
+  categories:
+    - misc
+- repo: chromebrew
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.9.0
+  origversion: null
+  status: outdated
+  summary: A very fast implementation of tldr in Rust.
+  licenses:
+    - Apache-2.0, MIT
+- repo: crates_io
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.9.1
+  origversion: null
+  status: newest
+  summary: Fetch and show tldr help pages for many CLI commands. Full featured offline client with caching support.
 - repo: raspbian_stable
   subrepo: main
   srcname: rust-tealdeer
@@ -12,6 +56,43 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.9.0
+  origversion: 1.9.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: artix
+  subrepo: galaxy
+  srcname: tealdeer
+  binname: tealdeer
+  visiblename: tealdeer
+  version: 1.9.1
+  origversion: 1.9.1-1
+  status: newest
+  summary: A fast tldr client in Rust
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: tealdeer
+  binname: tealdeer
+  visiblename: tealdeer
+  version: 1.8.1
+  origversion: 1.8.1-r0
+  status: outdated
+  summary: Alternative implementation of tldr
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: tealdeer
@@ -51,15 +132,6 @@
     - folliekazetani@protonmail.com
   licenses:
     - MIT AND Apache-2.0
-- repo: chromebrew
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.9.0
-  origversion: null
-  status: outdated
-  summary: A very fast implementation of tldr in Rust.
-  licenses:
-    - Apache-2.0, MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: tealdeer
@@ -142,29 +214,6 @@
   licenses:
     - Apache
     - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: tealdeer
-  binname: tealdeer
-  visiblename: tealdeer
-  version: 1.9.0
-  origversion: 1.9.0-1
-  status: outdated
-  summary: A fast tldr client in Rust
-  licenses:
-    - MIT
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: tealdeer
-  binname: tealdeer
-  visiblename: tealdeer
-  version: 1.8.1
-  origversion: 1.8.1-r0
-  status: outdated
-  summary: Alternative implementation of tldr
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: tealdeer
@@ -216,13 +265,6 @@
   origversion: null
   status: outdated
   summary: A very fast implementation of tldr in Rust.
-- repo: crates_io
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.9.1
-  origversion: null
-  status: newest
-  summary: Fetch and show tldr help pages for many CLI commands. Full featured offline client with caching support.
 - repo: debian_12
   subrepo: bookworm/main
   srcname: rust-tealdeer
@@ -279,6 +321,20 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.9.0
+  origversion: 1.9.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: deepin_23
   subrepo: main
   srcname: rust-tealdeer
@@ -312,7 +368,7 @@
     - tealdeer
   visiblename: rust-tealdeer
   version: 1.9.0
-  origversion: 1.9.0-1
+  origversion: 1.9.0-2
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -543,6 +599,16 @@
     - ZLIB
   categories:
     - app-misc
+- repo: msys2_clangarm64
+  srcname: mingw-w64-tealdeer
+  binname: mingw-w64-clang-aarch64-tealdeer
+  visiblename: mingw-w64-clang-aarch64-tealdeer
+  version: 1.9.1
+  origversion: 1.9.1-1
+  status: newest
+  summary: A very fast implementation of tldr in Rust (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0 OR MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
@@ -630,36 +696,6 @@
     - post@davidak.de
     - alex@thinglab.org
     - falakreyaz@gmail.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_05
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.7.2
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_11
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.8.1
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
   licenses:
     - Apache-2.0
     - MIT
@@ -799,16 +835,18 @@
   summary: A very fast implementation of tldr in Rust (mingw-w64)
   licenses:
     - spdx:Apache-2.0 OR MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-tealdeer
-  binname: mingw-w64-clang-aarch64-tealdeer
-  visiblename: mingw-w64-clang-aarch64-tealdeer
+- repo: pkgsrc_current
+  srcname: sysutils/tealdeer
+  binname: tealdeer
+  visiblename: sysutils/tealdeer
   version: 1.9.1
-  origversion: 1.9.1-1
+  origversion: null
   status: newest
-  summary: A very fast implementation of tldr in Rust (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0 OR MIT
+  summary: Simplified, example based and community-driven man pages
+  maintainers:
+    - bsiegert@netbsd.org
+  categories:
+    - sysutils
 - repo: msys2_ucrt64
   srcname: mingw-w64-tealdeer
   binname: mingw-w64-ucrt-x86_64-tealdeer
@@ -829,6 +867,36 @@
   maintainers:
     - post@davidak.de
     - alex@thinglab.org
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_05
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_25_11
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.8.1
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
   licenses:
     - Apache-2.0
     - MIT
@@ -906,7 +974,7 @@
     - MIT
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: rust-tealdeer
   binnames:
     - tealdeer
@@ -920,7 +988,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: rust-tealdeer
   binnames:
     - tealdeer
@@ -957,60 +1025,6 @@
     - bsiegert@netbsd.org
   categories:
     - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/tealdeer
-  binname: tealdeer
-  visiblename: sysutils/tealdeer
-  version: 1.9.1
-  origversion: null
-  status: newest
-  summary: Simplified, example based and community-driven man pages
-  maintainers:
-    - bsiegert@netbsd.org
-  categories:
-    - sysutils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.7.2
-  origversion: 1.7.2-1+deb13u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.5.0
-  origversion: 1.5.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - n@sail.ng
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.9.0
-  origversion: 1.9.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: scoop
   subrepo: main
   binname: tealdeer
