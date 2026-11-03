@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,638 · **Forks**: 168 · **Open issues**: 206 · **Contributors**: 81
+- **Stars**: 6,637 · **Forks**: 167 · **Open issues**: 206 · **Contributors**: 81
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 2 · **Closed issues**: 189 · **Open issues**: 17 · **Commits**: 603
+- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 3 · **Closed issues**: 189 · **Open issues**: 17 · **Commits**: 603
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-03 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-04 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-06 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-07 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-12 | 9 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-04 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-04 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-05 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-07 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-08 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-13 | 9 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **16** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
+Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **19** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,7 +107,7 @@ Reported by **85** distros on [repology.org](https://repology.org/project/tealde
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.6.1` | ⚠️ outdated |
 | Arch | `1.9.1` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.9.1` | ✅ latest |
 | Nix unstable | `1.9.1` | ✅ latest |
 | Void | `1.9.0` | ⚠️ outdated |
 | Alpine edge | `1.9.0` | ⚠️ outdated |
@@ -122,4 +122,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:23:29Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T08:19:01Z._
