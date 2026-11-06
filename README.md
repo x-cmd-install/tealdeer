@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,642 · **Forks**: 167 · **Open issues**: 206 · **Contributors**: 81
+- **Stars**: 6,645 · **Forks**: 167 · **Open issues**: 207 · **Contributors**: 81
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 3 · **Closed issues**: 189 · **Open issues**: 17 · **Commits**: 603
+- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 3 · **Closed issues**: 189 · **Open issues**: 18 · **Commits**: 603
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-06 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-07 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-09 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-10 | 6 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-15 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-07 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-07 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-08 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-10 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-11 | 6 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-16 | 8 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **19** are ✅ on the latest upstream release, **56** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/tealdeer). **19** are ✅ on the latest upstream release, **55** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,4 +122,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T08:15:02Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:58:46Z._
