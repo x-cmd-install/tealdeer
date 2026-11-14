@@ -1,31 +1,33 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-tealdeer
-  binnames:
-    - tealdeer
-  visiblename: rust-tealdeer
-  version: 1.9.0
-  origversion: 1.9.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: liguros_stable
+- repo: arch
+  subrepo: extra
+  srcname: tealdeer
+  binname: tealdeer
+  visiblename: tealdeer
+  version: 1.9.1
+  origversion: 1.9.1-1
+  status: newest
+  summary: A fast tldr client in Rust
+  licenses:
+    - MIT
+    - Apache-2.0
+- repo: liguros_develop
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
-  version: 1.6.1
-  origversion: 1.6.1-r1
-  status: outdated
-  summary: A very fast implementation of tldr in Rust.
+  version: 1.9.0
+  origversion: null
+  status: legacy
+  summary: A very fast implementation of tldr in Rust
   maintainers:
-    - petrus.zy.07@gmail.com
+    - ingenarel_neojesus@disroot.org
   licenses:
     - Apache-2.0
     - ISC
     - MIT
     - MPL-2.0
+    - BSD
+    - CDLA-Permissive-2.0
+    - Unicode-3.0
+    - ZLIB
   categories:
     - app-misc
 - repo: alpine_edge
@@ -112,26 +114,6 @@
     - MIT and Apache-2.0
   categories:
     - Documentation
-- repo: liguros_develop
-  srcname: app-misc/tealdeer
-  visiblename: app-misc/tealdeer
-  version: 1.9.1
-  origversion: null
-  status: newest
-  summary: A very fast implementation of tldr in Rust
-  maintainers:
-    - ingenarel_neojesus@disroot.org
-  licenses:
-    - Apache-2.0
-    - ISC
-    - MIT
-    - MPL-2.0
-    - BSD
-    - CDLA-Permissive-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - app-misc
 - repo: aosc
   srcname: app-doc/tealdeer
   binname: tealdeer
@@ -144,18 +126,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - doc
-- repo: arch
-  subrepo: extra
-  srcname: tealdeer
-  binname: tealdeer
-  visiblename: tealdeer
-  version: 1.9.1
-  origversion: 1.9.1-1
-  status: newest
-  summary: A fast tldr client in Rust
-  licenses:
-    - MIT
-    - Apache-2.0
 - repo: aur
   srcname: tealdeer-git
   binname: tealdeer-git
@@ -301,6 +271,26 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: liguros_develop
+  srcname: app-misc/tealdeer
+  visiblename: app-misc/tealdeer
+  version: 1.9.1
+  origversion: null
+  status: newest
+  summary: A very fast implementation of tldr in Rust
+  maintainers:
+    - ingenarel_neojesus@disroot.org
+  licenses:
+    - Apache-2.0
+    - ISC
+    - MIT
+    - MPL-2.0
+    - BSD
+    - CDLA-Permissive-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - app-misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: rust-tealdeer
@@ -599,6 +589,36 @@
     - ZLIB
   categories:
     - app-misc
+- repo: nix_stable_25_11
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.8.1
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+    - MIT
+- repo: nix_stable_26_05
+  srcname: tealdeer
+  visiblename: tealdeer
+  version: 1.8.1
+  origversion: null
+  status: outdated
+  summary: Very fast implementation of tldr in Rust
+  maintainers:
+    - post@davidak.de
+    - alex@thinglab.org
+    - falakreyaz@gmail.com
+    - xiaoyin_c@qq.com
+  licenses:
+    - Apache-2.0
+    - MIT
 - repo: gentoo_ovl_guru
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
@@ -641,24 +661,34 @@
   origversion: null
   status: rolling
   summary: Very fast implementation of tldr in Rust
-- repo: liguros_develop
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-tealdeer
+  binnames:
+    - tealdeer
+  visiblename: rust-tealdeer
+  version: 1.9.0
+  origversion: 1.9.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: liguros_stable
   srcname: app-misc/tealdeer
   visiblename: app-misc/tealdeer
-  version: 1.9.0
-  origversion: null
-  status: legacy
-  summary: A very fast implementation of tldr in Rust
+  version: 1.6.1
+  origversion: 1.6.1-r1
+  status: outdated
+  summary: A very fast implementation of tldr in Rust.
   maintainers:
-    - ingenarel_neojesus@disroot.org
+    - petrus.zy.07@gmail.com
   licenses:
     - Apache-2.0
     - ISC
     - MIT
     - MPL-2.0
-    - BSD
-    - CDLA-Permissive-2.0
-    - Unicode-3.0
-    - ZLIB
   categories:
     - app-misc
 - repo: liguros_develop
@@ -792,36 +822,6 @@
   srcname: tealdeer
   visiblename: tealdeer
   version: 1.7.2
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_25_11
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.8.1
-  origversion: null
-  status: outdated
-  summary: Very fast implementation of tldr in Rust
-  maintainers:
-    - post@davidak.de
-    - alex@thinglab.org
-    - falakreyaz@gmail.com
-    - xiaoyin_c@qq.com
-  licenses:
-    - Apache-2.0
-    - MIT
-- repo: nix_stable_26_05
-  srcname: tealdeer
-  visiblename: tealdeer
-  version: 1.8.1
   origversion: null
   status: outdated
   summary: Very fast implementation of tldr in Rust
