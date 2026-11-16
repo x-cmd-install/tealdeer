@@ -42,18 +42,18 @@ Total: **4,244** lines of code across **43** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 3 · **Closed issues**: 189 · **Open issues**: 18 · **Commits**: 603
+- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 3 · **Closed issues**: 191 · **Open issues**: 16 · **Commits**: 603
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-16 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-17 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-19 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-20 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-25 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-17 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-17 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-18 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-20 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-21 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-26 | 8 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -87,7 +87,7 @@ Total: **4,244** lines of code across **43** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **22** are ✅ on the latest upstream release, **53** are ⚠️ on an older version.
+Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **23** are ✅ on the latest upstream release, **52** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,4 +112,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T08:06:39Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:36:28Z._
