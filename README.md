@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,682 · **Forks**: 168 · **Open issues**: 207 · **Contributors**: 81
+- **Stars**: 6,687 · **Forks**: 169 · **Open issues**: 207 · **Contributors**: 81
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 4 · **Closed issues**: 191 · **Open issues**: 16 · **Commits**: 603
+- **Releases**: 19 · **Merged PRs**: 257 · **Open PRs**: 5 · **Closed issues**: 191 · **Open issues**: 16 · **Commits**: 603
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-22 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-23 | 2 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-25 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-26 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-01 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-23 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-23 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-24 | 2 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-26 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-27 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-02 | 8 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -122,4 +122,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:57:03Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:15:59Z._
