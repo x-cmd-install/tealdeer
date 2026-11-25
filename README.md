@@ -26,7 +26,7 @@ Total: **4,244** lines of code across **43** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4 / 10**
+Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,690 · **Forks**: 169 · **Open issues**: 207 · **Contributors**: 81
+- **Stars**: 6,692 · **Forks**: 169 · **Open issues**: 207 · **Contributors**: 81
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 2 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 5 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 8 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 5 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 8 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -95,24 +95,6 @@ Lowest-scoring checks:
 | [tealdeer-windows-x86_64-msvc.exe](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe) | 3.5 MiB | `native/win/x64` |
 | [tealdeer-windows-x86_64-msvc.exe.sha256](https://github.com/dbrgn/tealdeer/releases/download/v1.9.1/tealdeer-windows-x86_64-msvc.exe.sha256) | 99 B | `native/win/x64` |
 
-## Distribution status
-
-Reported by **85** distros on [repology.org](https://repology.org/project/tealdeer). **26** are ✅ on the latest upstream release, **49** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.9.0` | ⚠️ outdated |
-| Debian 14 | `1.9.0` | ⚠️ outdated |
-| Debian 13 | `1.7.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.6.1` | ⚠️ outdated |
-| Arch | `1.9.1` | ✅ latest |
-| Homebrew | `1.9.1` | ✅ latest |
-| Nix unstable | `1.9.1` | ✅ latest |
-| Void | `1.9.1` | ✅ latest |
-| Alpine edge | `1.9.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.9.1` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `tealdeer` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -122,4 +104,4 @@ Install metadata for tealdeer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:49:33Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:18:27Z._
